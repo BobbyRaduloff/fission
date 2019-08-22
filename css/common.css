@@ -1,0 +1,17 @@
+/* Set up colors */
+:root {
+    --purple: #660066;
+    --white: #e8e8e8;
+    --green: #008080;
+    --blue: #265a80;
+    --black: #090c08;
+    overflow-x: hidden;
+}
+
+.main-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--purple);
+}
