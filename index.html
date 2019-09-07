@@ -13,6 +13,20 @@
     <!-- Settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="favicons/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#660066">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Fission 2020">
+    <meta name="application-name" content="Fission 2020">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <!-- Includes -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -43,19 +57,19 @@
                         <a class="nav-link" href="signup.html">Signup</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rules.html">Rules</a>
+                        <a class="nav-link" href="guidelines.html">Guidelines</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="schedule.html">Schedule</a>
+                        <a class="nav-link" href="schedule.html">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="jury.html">Jury</a>
+                        <a class="nav-link" href="jury.html">Jury</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="team.html">Team</a>
+                        <a class="nav-link" href="team.html">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                 </ul>
             </div>
@@ -65,7 +79,7 @@
                 <div class="container-fluid">
                     <div class="hero-text text-right">
                         <h1> FISSION@ACS 2020 </h1>
-                        <button class="btn btn-primary">Sign Up!</button>
+                        <button class="btn btn-primary" onclick="window.location='signup.html'" >Sign Up!</button>
                     </div>
                 </div>
             </div>
@@ -76,54 +90,72 @@
                 <hr class="my-4">
                 <h1 class="display-5">What is FISSION?</h1>
                 <p class="lead">
-                    FISSION is an international non-profite science competition for high-schoolers. It is held annually
+                    FISSION is an international non-profit science competition for high-schoolers. It is held annually
                     at the
                     American College of Sofia (ACS) in Bulgaria's capital, Sofia. It aims to encourage inquiry-based
                     learning in students, and take them beyond the limitations of classroom science. FISSION is
-                    organized by a passionate of team ACS students.</p>
-                <h1 class="display-5">Filler Text</h1>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus ultricies
-                    leo, sed facilisis mauris dignissim ac. Integer eget elit ac quam auctor ullamcorper non fermentum
-                    magna. Ut a orci sed lacus molestie dictum non vel est. Phasellus consequat elit lorem, at congue
-                    ligula feugiat ac. Cras lobortis sed tellus eget molestie. Aenean vitae orci fringilla, tincidunt
-                    ligula eu, interdum metus. Suspendisse dictum, eros sit amet rhoncus blandit, magna ligula faucibus
-                    lorem, non feugiat nisi quam vitae purus. Curabitur nec vulputate nisl. Ut eu arcu metus. Morbi
-                    tincidunt sed nisi in hendrerit. Quisque sit amet neque cursus, varius nulla eu, fringilla enim.
-                    Nullam lobortis turpis quam, nec vulputate turpis finibus eget. </p>
-                <h1 class="display-5">Filler Text</h1>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur finibus ultricies
-                    leo, sed facilisis mauris dignissim ac. Integer eget elit ac quam auctor ullamcorper non fermentum
-                    magna. Ut a orci sed lacus molestie dictum non vel est. Phasellus consequat elit lorem, at congue
-                    ligula feugiat ac. Cras lobortis sed tellus eget molestie. Aenean vitae orci fringilla, tincidunt
-                    ligula eu, interdum metus. Suspendisse dictum, eros sit amet rhoncus blandit, magna ligula faucibus
-                    lorem, non feugiat nisi quam vitae purus. Curabitur nec vulputate nisl. Ut eu arcu metus. Morbi
-                    tincidunt sed nisi in hendrerit. Quisque sit amet neque cursus, varius nulla eu, fringilla enim.
-                    Nullam lobortis turpis quam, nec vulputate turpis finibus eget. </p>
+                    organized by a passionate of team ACS students. Develop your scientific project and compete for a
+                    great award or come as a guest and see intriguing student projects. Join innovative workshops,
+                    listen to recognized lecturers and leave with a sense of inspiration.
+                </p>
+                <h1 class="display-5">Where and when?</h1>
+                <p class="lead"> Fission 2020 will be held on the 27th and 28th of March, 2020. It will be held in the
+                    <a href="https://acs.bg">American College of Sofia</a> in Sofia, Bulgaria. More info will be
+                    available soon on the <a href="schedule.html">schedule</a> page.</p>
+                <h1 class="display-5">What do we offer?</h1>
+                <p class="lead">FISSION aims to unite students interested in science and give them a platform to share
+                    and exchange their ideas. The goal of the fair is to also help students realize their educational
+                    and professional opportunities in the fields of Science. To achieve this, we have invited scientists
+                    from prominent universities to lead lectures about their own research, present their experiences and
+                    offer helpful advice to students who want to pursue their interest in science beyond high school.
+                    Topics will also include applications of science in business and entrepreneurship, as well as
+                    opportunities for higher education in the field of science worldwide. The names of the speakers and
+                    the specific topics of their lectures will be posted throughout the course of the year. Furthermore,
+                    Fission guests and participants can participate in extraordinary workshops. Through them, they will
+                    be able to learn
+                    about new technologies and see them in action. Different leading companies will deliver these
+                    workshops
+                    and you will get a chance to personally meet successful people working in these areas. The names of
+                    the companies and the topics of their workshops will be posted throughout the course of the year.
+                </p>
+                <h1 class="display-5">How do I participate?</h1>
+                <p class="lead"> Go to the <a href="signup.html">signup page</a> for more instructions on how to
+                    participate. Make sure to also read the <a href="guidelines.html">guidelines</a> before you apply.</p>
             </div>
         </div>
         <div class="container sponsors-container">
             <div class="sponsors">
                 <h1 class="display-3 text-center">FISSION 2020 Sponsors </h1>
                 <hr class="my-4">
-                <div class="row text-center">
-                    <div class="col-4">
-                        <h3>Sponsor #1</h3>
-                        <img src="img/logo.png" alt="">
-                        <p><em>Some quote from the sponsor about fission.</em></p>
+                <div class="row text-center justify-content-center">
+                    <div class="card">
+                        <img src="img/nbu.png" class="card-img-top" alt="New Bulgarian University">
+                        <div class="card-body">
+                            <h5 class="card-title">New Bulgarian University</h5>
+                            <a href="https://nbu.bg" class="btn btn-primary">Visit</a>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <h3>Sponsor #2</h3>
-                        <img src="img/logo.png" alt="">
-                        <p><em>Some quote from the sponsor about fission.</em></p>
+                    <div class="card">
+                        <img src="img/abf.jpg" class="card-img-top" alt="America for Bulgaria Foundation">
+                        <div class="card-body">
+                            <h5 class="card-title">America for Bulgaria Foundation</h5>
+                            <a href="https://www.us4bg.org" class="btn btn-primary">Visit</a>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <h3>Sponsor #3</h3>
-                        <img src="img/logo.png" alt="">
-                        <p><em>Some quote from the sponsor about fission.</em></p>
+                    <div class="card">
+                        <img src="img/juliany.jpg" class="card-img-top" alt="Juliany">
+                        <div class="card-body">
+                            <h5 class="card-title">Juliany</h5>
+                            <a href="https://julliany.com" class="btn btn-primary">Visit</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <footer>
+            <p>Copyright by <a href="https://acs.bg">The American College of Sofia</a>. All rights reserved. For more
+                info, visit <a href="team.html">contacts</a>.</p>
+        </footer>
     </div>
 </body>
 

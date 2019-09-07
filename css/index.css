@@ -49,6 +49,17 @@
     padding: 2.5rem 3rem;
 }
 
-.sponsors img {
-    max-width: 15vw;
+.card {
+    height: 20rem;
+    max-width: 16em;
+    background-color: #d6d2d2;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card img {
+    padding: 1em;
+    height: 12rem;
 }

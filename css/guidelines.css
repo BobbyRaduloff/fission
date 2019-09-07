@@ -1,0 +1,16 @@
+.about-container {
+    min-width: 100vw;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    background-color: var(--purple);
+}
+
+.about-fission {
+    background-color: var(--white);
+    padding: 2.5rem 3rem;
+}
+
+img {
+    max-width: 15vh;
+}
