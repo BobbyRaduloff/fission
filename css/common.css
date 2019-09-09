@@ -10,6 +10,7 @@
 
 .main-container {
     min-height: 100vh;
+    position: relative;
     min-width: 100vw;
     padding: 0;
     overflow: hidden;
@@ -17,6 +18,8 @@
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: var(--black);
     color: var(--white);
