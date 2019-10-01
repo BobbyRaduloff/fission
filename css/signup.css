@@ -5,15 +5,9 @@
 
 iframe {
     width: 75vw;
-    height: 7219px;
+    height: 1000px;
 }
 
 img {
     display: block;
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-    iframe {
-        height: 9600px;
-    }
 }
