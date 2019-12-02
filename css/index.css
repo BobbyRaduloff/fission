@@ -79,3 +79,22 @@
 .hero-stuff {
     margin-top: 20vh;
 }
+
+.sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-card {
+    border: 1px solid var(--black);
+    background-color: #d8d8d8;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 16px;
+}
+
+.sponsor-card img {
+    display: block;
+    margin: auto;
+}
