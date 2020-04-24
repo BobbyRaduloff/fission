@@ -71,13 +71,12 @@
     height: 100%;
 }
 
+.hero-holder h1 {
+    margin-top: 10rem;
+}
 
 .hero-holder h1 {
     font-size: 3.5rem;
-}
-
-.hero-stuff {
-    margin-top: 20vh;
 }
 
 .sponsors {
@@ -97,4 +96,32 @@
 .sponsor-card img {
     display: block;
     margin: auto;
+}
+
+.hero-holder {
+    max-width: 40%;
+    margin: auto;
+}
+
+.bgcard {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 1%;
+    border-radius: 25px;
+    border: 2px solid var(--black);
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-holder h1 {
+        font-size: 1.5rem;
+    }
+    .hero-holder {
+        max-width: 90%;
+    }
+    .hero-holder h1 {
+        margin-top: 0;
+    }
+    iframe {
+        width: 90%;
+    }
 }
